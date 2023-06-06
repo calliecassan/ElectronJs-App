@@ -1,0 +1,26 @@
+{
+  "name": "electronapp",
+  "version": "0.0.1",
+  "description": "This is a dummy app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "start:dev": "npx electronmon --trace-warnings ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "ElectronJS-App"
+  },
+  "keywords": [
+    "electron",
+    "react.js",
+    "typescript"
+  ],
+  "author": "CC",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^25.0.1",
+    "prettier": "^2.8.8"
+  }
+}
